@@ -1,8 +1,15 @@
 import React from 'react'
+import CreateNotes from '../components/CreateNotes'
+import Login from './auth/Login'
+import Register from './auth/Register'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>Home
+      {/* <Login/> */}
+      {/* <Register/> */}
+      <CreateNotes/>
+    </div>
   )
 }
 
