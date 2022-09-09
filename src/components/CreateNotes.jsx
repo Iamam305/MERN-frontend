@@ -8,7 +8,7 @@ const CreateNotes = () => {
     <div>
 
         <div className="w-3/5 mx-auto">
-      <ReactQuill theme="snow" value={value} onChange={setValue} />
+      <ReactQuill theme="snow" value={value} onChange={setValue} className="h-40" />
         </div>
     </div>
   );
